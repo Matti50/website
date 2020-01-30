@@ -1,0 +1,29 @@
+header{
+    display: flex;
+    height: 623px;
+    width: 100%;
+    background-color: gray;
+    justify-content: center;
+    align-items: center;
+    background: url("../../img/background.jpg") no-repeat scroll center top transparent;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .header-content{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    font-size: 50px;
+    font-family: "Open Sans",sans-serif;
+    color: white;
+    
+  }
+  
+  @media screen and (max-width: 1000px){
+    .header-content{
+      font-size: 30px;
+    }
+  }
+  

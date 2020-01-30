@@ -1,0 +1,43 @@
+.social-media{
+    height: 350px;
+    width: 100%;
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: "Open Sans",sans-serif;
+  }
+  
+  .social-media h2{
+    font-size: 2em;
+    color: #01161E;
+    width: 100%;
+    text-align: center;
+    height: 40px;
+  }
+  
+  .media-nav{
+    width: 100%;
+  }
+  
+  .media-nav ul{
+    margin-top: -50px;
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+  }
+  
+  .media-nav ul li{
+    
+    text-align: center;
+  }
+  
+  .media-nav ul li a{
+    text-decoration: none;
+    padding-top:2px;
+    text-align: center;
+    color: #201A23;
+  }
+  
+  .media-nav ul li a:hover{
+    color: #01161E;
+  }

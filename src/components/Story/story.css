@@ -1,0 +1,30 @@
+.story{
+    height: 554px;
+    background-color: #201A23;
+    display: flex;
+    color: white;
+    font-family: "Open Sans",sans-serif;
+    justify-content: center;
+    align-items: center;
+    padding-top:50px;
+  }
+  
+  .story-content{
+    width: 70%;
+    margin-top: -110px;
+  }
+  
+  .story-content h2{
+    font-size: 40px;
+    margin-bottom: 50px;
+  }
+  
+  @media screen and (max-width: 1000px){
+    .story-content{
+      height: auto;
+    }
+    .story-content h2{
+      font-size: 25px;
+      
+    }
+  }
