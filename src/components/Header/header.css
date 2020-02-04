@@ -26,4 +26,10 @@ header{
       font-size: 30px;
     }
   }
+
+@media screen and (max-width: 500px){
+  .header-content{
+    font-size: 25px;
+  }
+}  
   

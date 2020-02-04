@@ -13,10 +13,10 @@
 }
 
 .contact-form{
-    
-    margin-left: 70px;
+    display: flex;
+    flex-direction: column;
     text-align: left;
-    width: 40%;
+    width: 400px;
     height: auto;
     padding: 20px;
     align-self: center;
@@ -39,11 +39,13 @@
     resize: none;
     width: 400px;
     height: 200px;
+    border: 1px solid black;
 }
 
 .contact-form label{
     display: block;
     margin-top: 10px;
+    font-size: 12px;
 }
 
 .contact-form input[type="submit"]{
@@ -53,9 +55,54 @@
     border: 1px solid black;
     background-color: white;
     border-radius: 4px;
-    transition: .2s ease;
+    transition: .2s ease;   
 }
 .contact-form input[type="submit"]:hover{
     background-color: #ccc;
     cursor: pointer;
+}
+
+@media screen and (max-width: 1000px){
+    
+    .contact{
+        margin-bottom: 150px;
+        
+    }
+
+
+    .contact h2{
+        margin-top: 140px;
+        
+    }
+
+
+    .contact-form input [type="text"]{
+        width: 200px;
+
+    }
+    textarea{
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    
+    .contact{
+        margin-bottom: 100px;
+    }
+
+    .contact-form{
+        width: 200px;
+        align-self: flex-start;
+    }
+
+    .contact-form input[type="text"]{
+        width: 200px;
+    }
+
+    .contact-form textarea{
+        width: 200px;
+    }
+
+
 }
